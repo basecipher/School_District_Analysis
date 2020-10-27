@@ -1,41 +1,28 @@
 # School_District_Analysis
 Student grade analysis using Anaconda Jupyter Notebook
 
-# Election_Analysis
-Written with Python
+Written with Python, Panda, Anaconda & Jupyter Notebook
 
 ## Overview of Project
-
-The Colorado Board of Elections employee gave us the tast to complete an alection audit of recent local congressional election.
+The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold
 
 ### Purpose
-1.  Calculate the total number of votes cast.
-2.  Get a complete list of candidates who received votes.
-3.  Calculate the total number of votes each candidate received.
-4.  Calculate the percentage of votes each candidate won
-5.  Determine the winner of the election based on popular vote.
-
+How does replacing the ninth-grade scores affect the following:
+1. Math and reading scores by grade:  gave the illusion that district students where doing fine with passing results when really they weren't.
+2. Scores by school spending:  The more was spend the better students performed.
+3. Scores by school size:  Smaller school sizes renedered better performing students.
+3. Scores by school type:  Charter schools produce better results than district.
 
 ## Resources
 
-* Python 3.7.6, Visual Studio Code 1.50.1
-
-* Data Source:  election_results.csv
+* Python 3.7.6, Conda 4.9.0
+* Data Source:  students_complete.csv
+                schools_complete.csv
 
 ## Summary
-* There were 369,711 votes cast in the election.
-* The candidates were:  Charles Casper Stockham (Candidate 1), Diana DeGette (Candidate 2) and Raymon Anthony Doane (Candidate 3)
-* The winner of the election was Candidate 2:  Diana DeGette by winning 73.8% of the vote.
+After making the requested reading and math score replacement request we determined that the lion's share of the funding should go into mathematics remediation classes for the District students to bring them up to speed.  Charter Schools are fine.
+
+![Percentage Passing](https://github.com/basecipher/School_District_Analysis/blob/main/Resources/Summary%20of%20DF.png)
 
 ## Challenge Overview
-creating for loops with lists of dictionaries was difficult to grasp initially but with practice became crutial to developing code.
-
-## Election Audit
-
-Overview of Election Audit: Purpose of an election audit is to ensure the integrity of the calculated votes are accurate.  It also exames in detail the process used and double-checks its veracity.
-
-* Election-Audit Results: The audit matched the election results with 100% accuracy.
-
-![Election Results](https://github.com/basecipher/Election_Analysis/blob/main/Election%20Results.png)
-
-* Script can be repurposed for next election or modified for a different jurisdiction very easily.
+It was difficult getting a grasp of the loc command syntax
